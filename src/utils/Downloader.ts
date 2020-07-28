@@ -24,10 +24,10 @@ export default class Downloader {
         logInfo(`- Downloading ${url}`);
         let outputDir = `downloads/%(title)s.%(ext)s`;
         const { stdout, stderr } = await exec(
-          `C:/Bin/youtube-dl -o ${outputDir} ${url}`
+          `youtube-dl -o ${outputDir} ${url}`
         );
-        // console.log('stdout:', stdout);
-        // console.log('stderr:', stderr);
+        console.log('stdout:', stdout);
+        console.log('stderr:', stderr);
         resolve(stdout);
       } catch (err) {
         reject(err);
