@@ -28,10 +28,11 @@ export const builder: { [key: string]: yargs.Options } = {
 };
 export async function handler({ subreddit }: Params) {
   let subReddit = new Subreddit(subreddit || (await getSubreddit()));
-  logInfo(`Fetching posts from r/${subreddit}`);
+  logInfo(`Fetching posts from  ${subReddit.url}`);
   let posts = await subReddit.getPosts();
   logInfo(`Got ${posts.length} post.`);
   await Downloader.get(
-    posts.map((p: Listing) => `https://reddit.com${p.data.permalink}`)
+    posts.map((p: Listing) => `https://reddit.com${p.data.permalink}`),
+    subreddit
   );
 }

@@ -2465,6 +2465,11 @@ mock-stdin@0.3.0:
   resolved "https://registry.yarnpkg.com/mock-stdin/-/mock-stdin-0.3.0.tgz#f40d2a513a114e6d547480625b5ef5190744bd4d"
   integrity sha1-9A0qUToRTm1UdIBiW171GQdEvU0=
 
+moment@^2.27.0:
+  version "2.27.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
+  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -3503,9 +3508,9 @@ typescript-eslint-parser@^4.0.0:
     semver "5.3.0"
 
 typescript@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
-  integrity sha1-+DlfhdRZJ2BnyYiqQYN6j4KHCEQ=
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
+  integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
 uglify-js@^3.1.4:
   version "3.10.0"

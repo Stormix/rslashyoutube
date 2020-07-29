@@ -3,7 +3,7 @@ import { logError } from '.';
 const Reddit = require('reddit');
 
 class Subreddit {
-  url: string;
+  public url: string;
   client: any;
   constructor(name: string) {
     this.url = `/r/${name}`;
