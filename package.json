@@ -43,13 +43,18 @@
   "dependencies": {
     "chalk": "^2.0.1",
     "dotenv": "^8.2.0",
+    "google-auth-library": "^6.0.5",
+    "googleapis": "^57.0.0",
     "husky": "^0.14.3",
     "inquirer": "^3.2.0",
+    "lien": "^3.3.0",
     "moment": "^2.27.0",
     "node-emoji": "^1.7.0",
+    "r-json": "^1.2.9",
     "reddit": "^1.1.0",
     "slugify": "^1.4.5",
-    "yargs": "^8.0.2"
+    "yargs": "^8.0.2",
+    "youtube-api": "^3.0.0"
   },
   "lint-staged": {
     "*.ts": [
